@@ -1,0 +1,9 @@
+speaker;hi;def
+This is a different file from the testscript.vnomad one you just read through.
+It will now load the first script again.
+
+loadfile;testscript
+
+
+p; anything after this point shouldn't happen in the engine
+pass;theauxcord

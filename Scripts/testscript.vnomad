@@ -1,0 +1,80 @@
+speaker;A Lost Soul;def
+Welcome to VNomad.
+This is an example script file, which you can access and edit at Scripts\testscript.vnomad.
+I made this in order to have more control over the position and animation of UI elements.
+newtextbox;second;200;100
+p;For example, textboxes.;second
+p; Let's give this one a name.
+s;Actress Again;second
+p;Like this.
+rw;second
+p;It's not necessary though.
+#What's also not necessary is this line, which is a comment. It won't get added to the game scene.
+		#Only script editors can see those.
+p;You can also create 'windows', which run code every frame depending on their type.
+newwindow;cracker;cracker;100;100;standard
+p;Whoosh.
+setpos;69;420
+pskip;They're coming;def
+p;They can move, though the animation system isn't done yet.;second
+
+
+
+#Empty lines also don't do anything, so you can separate different sections if that helps you write the script.
+
+
+
+
+newwindow;cracker;cracker;400;100
+newwindow;cracker;cracker;200;100
+newwindow;cracker;cracker;210;120
+
+Oh loooord help me.
+newwindow;cracker;cracker;320;65
+newwindow;cracker;cracker;300;210
+newwindow;cracker;cracker;340;220
+newwindow;cracker;cracker;190;220
+newwindow;cracker;cracker;340;205
+newwindow;cracker;cracker;380;190
+newwindow;cracker;cracker;410;109
+
+
+p;      I am being drowned in cats
+
+newwindow;cracker;cracker;640;225
+newwindow;cracker;cracker;632;170
+newwindow;cracker;cracker;642;130
+newwindow;cracker;cracker;610;226
+newwindow;cracker;cracker;720;65
+newwindow;cracker;cracker;630;60
+
+newwindow;cracker;cracker;200;184
+newwindow;cracker;cracker;184;181
+newwindow;cracker;cracker;169;190
+newwindow;cracker;cracker;179;250
+newwindow;cracker;cracker;270;379
+newwindow;cracker;cracker;200;379
+
+
+pskip; ;def
+p; AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA;second
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+loadfile;milka
+
+
+
+

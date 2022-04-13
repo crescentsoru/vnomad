@@ -1,0 +1,34 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Base/Textbox.gd" type="Script" id=1]
+[ext_resource path="res://test_textboxBG.png" type="Texture" id=2]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+"loop": true,
+"name": "def",
+"speed": 5.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "none",
+"speed": 5.0
+} ]
+
+[node name="Textbox" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="scrollingBG" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+animation = "def"
+centered = false
+
+[node name="scrollingText" type="RichTextLabel" parent="."]
+margin_left = 14.0
+margin_top = 14.0
+margin_right = 447.0
+margin_bottom = 123.0
+__meta__ = {
+"_edit_use_anchors_": false
+}

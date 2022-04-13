@@ -1,0 +1,36 @@
+bg;1
+portrait;example
+p;You walk around until you find probably the quietest place within the 15 kilometers.;  
+portrait;cat
+p;A cat is staring at you behind a tree, clearly not repelled by your larger frame like most strays. 
+p;Because it is a cat, you remembered it as a cat.
+p;...;Cat
+p;Meow.
+p;Maybe it was abandoned by previous owners?;
+p;It sprung in front of a snack vending machine and continued staring at you.
+p;It clearly wants something.
+pskip;LEFT- Buy the thing a snack.            RIGHT- Leave it alone.;
+choice;buy;leave
+flag;buy
+p;There's nothing left to buy except crackers.
+p;You decide to humour the thing anyways and give it one.
+p;...
+p;The cat is wolfing down the crackers like it's normal.
+p;You're not hungry, so you keep giving it crackers.
+p;Meow.;Cat
+p;As it's instructed, you go the extra mile and offer it some water from your flask.; 
+p;Can't have it die from sodium overdose. Not its time yet.
+p;It seems like it's around 2 years old. And again, too friendly for a stray.
+p;You grab it by the collar. No objections come.
+p;..It's a boy.
+p;After you stand up and leave for the next block, you realize he was following you the entire time.
+p;Meeowww.;Cat
+p;Fine, he can tag along.;  
+p;You call him Cracker and vow that he never has to resort to eating crackers ever again.
+pet;10
+map
+flag;leave
+p;It looks like it's fed well enough by the locals.;  
+p;I'm sure it'll get adopted by someone with a nice home in no time.
+
+map
